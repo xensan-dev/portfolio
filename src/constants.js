@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -52,11 +51,7 @@ const services = [
     {
         title: "Backend Developer",
         icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+    }
 ];
   
 const technologies = [
@@ -71,10 +66,6 @@ const technologies = [
     {
         name: "JavaScript",
         icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
     },
     {
         name: "React JS",

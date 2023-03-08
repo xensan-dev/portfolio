@@ -18,9 +18,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    wwd,
+    ccp,
+    mp,
     threejs,
 } from "./assets";
   
@@ -188,10 +188,10 @@ const testimonials = [
 ];
   
 const projects = [
-    {
-        name: "Car Rent",
+    /*{
+        name: "uforumit",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A full Stack Forum web-application, similar to reddit, that allows the user to create categories, create threads, comment on existing threads, follow users, and more!",
         tags: [
             {
             name: "react",
@@ -202,54 +202,87 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-            name: "tailwind",
+            name: "bulmacss",
                 color: "pink-text-gradient",
             },
+            {
+            name: "graphql",
+                color: "blue-text-gradient"
+            },
         ],
-        image: carrent,
+        image: wwd,
         source_code_link: "https://github.com/",
-    },
+    },*/
     {
-        name: "Job IT",
+        name: "Wallet Watchdog",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A Full Stack Finance web-application that takes in your income, monthly expenses, etc. and keeps a track on how much you are saving. Updates needed.",
         tags: [
             {
-            name: "react",
+            name: "handlebars",
                 color: "blue-text-gradient",
             },
             {
-            name: "restapi",
+            name: "sql",
                 color: "green-text-gradient",
             },
             {
-            name: "scss",
+            name: "express",
+                color: "pink-text-gradient",
+            },
+            {
+            name: "chart.js",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: wwd,
+        source_code_link: "https://github.com/Xenon789/Wallet-Watchdog",
     },
     {
-        name: "Trip Guide",
+        name: "Crypto Conversion",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A Crypto-currency web-application that allows the user to search all coins, find their values, and converts them to other currencies. (ex: USD to Yen)",
         tags: [
             {
-            name: "nextjs",
+            name: "html",
                 color: "blue-text-gradient",
-            },
-            {
-            name: "supabase",
-                color: "green-text-gradient",
             },
             {
             name: "css",
+                color: "green-text-gradient",
+            },
+            {
+            name: "api",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ccp,
+        source_code_link: "https://github.com/Xenon789/Crypto-conversion-project",
+    },
+    {
+        name: "My Portfolio",
+        description:
+            "My first vite, three.js, tailwindcss front end project using a tutorial given by Javascript Mastery.",
+        tags: [
+            {
+            name: "vite",
+                color: "blue-text-gradient",
+            },
+            {
+            name: "react",
+                color: "green-text-gradient",
+            },
+            {
+            name: "three.js",
+                color: "pink-text-gradient",
+            },
+            {
+            name: "tailwindcss",
+                color: "white-text-gradient",
+            },
+        ],
+        image: mp,
+        source_code_link: "https://github.com/Xenon789/portfolio",
     },
 ];
   

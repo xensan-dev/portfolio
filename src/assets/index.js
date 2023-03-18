@@ -29,6 +29,8 @@ import tesla from "./company/tesla.png";
 import wwd from "./wwd.png";
 import ccp from "./ccp.png";
 import mp from "./mp.png";
+import ufi from "./ufi.png";
+import pwa from "./pwa.png";
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   wwd,
   ccp,
   mp,
+  ufi,
+  pwa
 };

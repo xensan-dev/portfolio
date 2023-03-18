@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+    ufi,
     web,
     javascript,
     html,
@@ -22,6 +22,7 @@ import {
     ccp,
     mp,
     threejs,
+    pwa
 } from "./assets";
   
 export const navLinks = [
@@ -188,50 +189,50 @@ const testimonials = [
 ];
   
 const projects = [
-    /*{
+    {
         name: "uforumit",
         description:
             "A full Stack Forum web-application, similar to reddit, that allows the user to create categories, create threads, comment on existing threads, follow users, and more!",
         tags: [
             {
-            name: "react",
+            name: "React",
                 color: "blue-text-gradient",
             },
             {
-            name: "mongodb",
+            name: "MongoDB",
                 color: "green-text-gradient",
             },
             {
-            name: "bulmacss",
+            name: "Bulma",
                 color: "pink-text-gradient",
             },
             {
-            name: "graphql",
+            name: "Apollo GraphQL",
                 color: "blue-text-gradient"
             },
         ],
-        image: wwd,
+        image: ufi,
         source_code_link: "https://github.com/",
-    },*/
+    },
     {
         name: "Wallet Watchdog",
         description:
             "A Full Stack Finance web-application that takes in your income, monthly expenses, etc. and keeps a track on how much you are saving. Updates needed.",
         tags: [
             {
-            name: "handlebars",
+            name: "Handlebars",
                 color: "blue-text-gradient",
             },
             {
-            name: "sql",
+            name: "SQL",
                 color: "green-text-gradient",
             },
             {
-            name: "express",
+            name: "Express",
                 color: "pink-text-gradient",
             },
             {
-            name: "chart.js",
+            name: "Chart.js",
                 color: "pink-text-gradient",
             },
         ],
@@ -244,15 +245,15 @@ const projects = [
             "A Crypto-currency web-application that allows the user to search all coins, find their values, and converts them to other currencies. (ex: USD to Yen)",
         tags: [
             {
-            name: "html",
+            name: "Bulma",
                 color: "blue-text-gradient",
             },
             {
-            name: "css",
+            name: "HTML/CSS",
                 color: "green-text-gradient",
             },
             {
-            name: "api",
+            name: "API",
                 color: "pink-text-gradient",
             },
         ],
@@ -265,23 +266,44 @@ const projects = [
             "My first vite, three.js, tailwindcss front end project using a tutorial given by Javascript Mastery.",
         tags: [
             {
-            name: "vite",
+            name: "Vite",
                 color: "blue-text-gradient",
             },
             {
-            name: "react",
+            name: "React",
                 color: "green-text-gradient",
             },
             {
-            name: "three.js",
+            name: "Three.js",
                 color: "pink-text-gradient",
             },
             {
-            name: "tailwindcss",
+            name: "Tailwindcss",
                 color: "white-text-gradient",
             },
         ],
         image: mp,
+        source_code_link: "https://github.com/Xenon789/portfolio",
+    },
+    {
+        name: "JATE PWA",
+        description:
+            "PWA Challenge from coding bootcamp",
+        tags: [
+            {
+            name: "PWA",
+                color: "blue-text-gradient",
+            },
+            {
+            name: "HTML/CSS",
+                color: "green-text-gradient",
+            },
+            {
+            name: "Express",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: pwa,
         source_code_link: "https://github.com/Xenon789/portfolio",
     },
 ];
